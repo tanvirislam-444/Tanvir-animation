@@ -252,3 +252,28 @@ h1{
         transform: rotate(360deg);
     }
 }
+/*mobile view*/
+@media (max-width:768px){
+    h2{
+        width: 352px;
+    }
+    .img1{
+      margin-left: 2px;
+      margin-bottom: -22px;
+    }
+    .p1{
+        width: 165px;
+        margin-right: -26px;
+    }
+    h1{
+        margin-left: 139px;
+        margin-top: -45px;
+    }
+    .all1{
+       width: 107%;
+       min-height: 65vh;
+    }
+    .all{
+        margin: -30px;
+    }
+}
